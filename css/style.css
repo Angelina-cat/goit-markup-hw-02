@@ -5,126 +5,35 @@ nav {
     }
   .nones { list-style: none;
 }
+
+ 
 .card-one{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
+    flex-direction: row;
+    height: 386px; 
+    justify-content: space-around;
+    align-items: flex-start;
 }
-.container{
-    width: 1170px;
-    height: 386px;
-    top: 969px;
-    left: 215px;
-    
+.section-team-card-super{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    height: 368px; 
+    justify-content: space-around;
+    align-items: flex-start;
+
 }
+
 body{
     background-color: #e5e5e5;
     width: 1600px;
     height: 600px;
     top: 80px;
+    font-family:Roboto,sans-serif;
+    letter-spacing: 3%;
 
 }
-.computer-mac{
-    position: absolute;
-    width: 370px;
-    
-    height: 294px;
-    top: 1061px;
-    left: 215px;
-}
-.box-comp{
-    position: absolute;
-    width: 370px;
-    
-    height: 294px;
-    top: 1061px;
-    left: 615px;
-
-}
-.plan-bi{
-    position: absolute;
-    width: 370px;
-    
-    height: 294px;
-    top: 1061px;
-    left: 1015px;
-}
-.atention-one{
-    position: absolute;
-    width: 270px;
-    
-    height: 101px;
-    top: 774px;
-    left: 215px;
-
-}
-.atention-two{
-    position: absolute;
-    width: 270px;
-    
-    height: 101px;
-    top: 774px;
-    left: 515px;
-}
-.firework-one{
-    position: absolute;
-    width: 270px;
-    
-    height: 101px;
-    top: 774px;
-    left: 815px;
-
-}
-.lust-techno{
-    position: absolute;
-    width: 270px;
-    
-    height: 101px;
-    top: 774px;
-    left: 1115px;
-
-}
-.team-card-one{
-    position: absolute;
-    width: 270px;
-    
-    height: 101px;
-    top: 1635px;
-    left: 215px;
-
-}
-.team-card-two{
-    position: absolute;
-    width: 270px;
-    
-    height: 260px;
-    top: 1635px;
-    left: 515px;
-
-}
-.team-card-less{
-    position: absolute;
-    width: 270px;
-    
-    height: 260px;
-    top: 1635px;
-    left: 815px;
-
-}
-.team-card-form{
-    position: absolute;
-    width: 270px;
-    
-    height: 260px;
-    top: 1635px;
-    left: 1115px;
-
-}
-.section-team-card-super {
-    width: 1600px;
-    
-    height: 648px;
-    top: 1449px;
-    }
     
     .container-five{
         height: 1360px;
@@ -132,5 +41,58 @@ body{
         flex-direction: column;
         flex-wrap: wrap;
     }
-       
+    .container-portfolio{
+        display: flex;
+height: 80px;
+flex-direction: row;
+flex-wrap:nowrap;
+align-items: flex-start;
+justify-content: space-around;
+    }
+    .container-portfolio-two{
+        display: flex;
+        flex-direction:row-reverse;
+        height: 80px;
+        justify-content:flex-end;
+    }
+  
+    .page-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .team-card-one{
+          color: #212121;
+          font-size: 14px;
+          line-height:1.17 ;
+          font-weight: 500;
 
+      }
+
+      .team-card-two {
+        color: #212121;
+        font-size: 14px;
+        line-height:1.17 ;
+        font-weight: 500;
+        letter-spacing: 2%;
+
+      }
+      .logo-first{
+          color:#2196F3;
+          font-size: 26px;
+          line-height:1.17 ;
+          font-weight: 700;
+          font-family:Raleway,serif ;
+    
+      }
+      .logo-header{
+        color:#FFFFFF ;
+        font-size: 26px;
+        line-height:1.17 ;
+        font-weight: 700;
+        font-family:Raleway,serif ;
+}
+.button {
+    color:#FFFFFF;
+    background: #2196F3;
+}
