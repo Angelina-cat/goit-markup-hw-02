@@ -32,6 +32,7 @@ body{
     top: 80px;
     font-family:Roboto,sans-serif;
     letter-spacing: 3%;
+    
 
 }
     
@@ -48,6 +49,7 @@ flex-direction: row;
 flex-wrap:nowrap;
 align-items: flex-start;
 justify-content: space-around;
+
     }
     .container-portfolio-two{
         display: flex;
@@ -55,7 +57,7 @@ justify-content: space-around;
         height: 80px;
         justify-content:flex-end;
     }
-  
+    
     .page-header {
         display: flex;
         align-items: center;
@@ -66,6 +68,7 @@ justify-content: space-around;
           font-size: 14px;
           line-height:1.17 ;
           font-weight: 500;
+          text-decoration: none;
 
       }
 
@@ -75,6 +78,7 @@ justify-content: space-around;
         line-height:1.17 ;
         font-weight: 500;
         letter-spacing: 2%;
+        text-decoration: none;
 
       }
       .logo-first{
@@ -83,6 +87,7 @@ justify-content: space-around;
           line-height:1.17 ;
           font-weight: 700;
           font-family:Raleway,serif ;
+          text-decoration: none;
     
       }
       .logo-header{
@@ -91,8 +96,107 @@ justify-content: space-around;
         line-height:1.17 ;
         font-weight: 700;
         font-family:Raleway,serif ;
+        text-decoration: none;
 }
-.button {
-    color:#FFFFFF;
-    background: #2196F3;
+
+    a:hover{
+        color:dodgerblue;
+        
+    }
+    a:focus{
+        color:dodgerblue;
+        
+    }
+        
+    
+    .team-card-mac{
+        color: #2196f3;
+        font-size: 14px;
+        line-height:1.17 ;
+        font-weight: 500;
+        text-decoration: none;
+
+    }
+    p{
+        color: #757575;
+        font-size: 14px;
+        line-height:1.17 ;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .non-stop{
+        display: flex;
+        height: 80px;
+        flex-direction: row;
+        flex-wrap:nowrap;
+        align-items: flex-start;
+        justify-content: space-around;
+        }
+        h2{
+            color:#212121;
+            font-size: 36px;
+            line-height:1.17 ;
+            font-weight: 700;
+            text-align: center;
+            text-decoration: none;
+        }
+        
+        h1{color:#FFFFFF;
+            font-size: 44px;
+            line-height:1.37 ;
+            font-weight: 900;
+            text-align: center;
+            letter-spacing: 6%;
+            text-decoration: none;
 }
+        .button {
+            color:#FFFFFF;
+            background: #2196F3;
+            font-size: 16px;
+                line-height:1.87 ;
+                font-weight: 700;
+                text-align: center;
+                letter-spacing: 6%;
+                text-decoration: none;
+                }
+                .e-mail{
+                    color:#757575;
+                    font-size: 14px;
+                    line-height:1.17 ;
+                    font-weight: 500;
+                    text-decoration: none;
+                   }
+                   .maximum-size{
+                    color:#FFFFFF, 60%;
+                    font-size: 14px;
+                    line-height:1.71 ;
+                    font-weight: 400;
+                    text-decoration: none;
+                   }
+                   .time-class{
+                    color:#212121;
+                    font-size: 18px;
+                    line-height:2 ;
+                    font-weight: 700;
+                    text-decoration: none;
+}
+.button-two
+{
+    color:#212121;
+            background:#F5F4FA ;
+            font-size: 16px;
+                line-height:1.87 ;
+                font-weight: 500;
+                text-align:justify;
+                letter-spacing: 3%;
+                text-decoration: none;
+
+}
+.street-one
+{ color:#FFFFFF;
+    font-size: 14px;
+    line-height:1.17 ;
+    font-weight: 400;
+    text-decoration: none;
+}
+
