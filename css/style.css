@@ -1,3 +1,7 @@
+
+ul{
+    list-style: none;
+}
 nav {
     display:flex;
     flex-wrap:wrap-reverse;
@@ -16,22 +20,19 @@ nav {
     align-items: flex-start;
 }
 .section-team-card-super{
+    background-color:#F5F4FA ;
     display: flex;
     flex-wrap:wrap;
     flex-direction: row;
     height: 368px; 
     justify-content: space-around;
     align-items: flex-start;
+    
 
 }
-
 body{
     background-color: #e5e5e5;
-    width: 1600px;
-    height: 600px;
-    top: 80px;
-    font-family:Roboto,sans-serif;
-    letter-spacing: 3%;
+    max-width: 1600px;
     
 
 }
@@ -62,35 +63,32 @@ justify-content: space-around;
         display: flex;
         align-items: center;
         justify-content: space-between;
+       background-color:#FFFFFF ;
       }
       .team-card-one{
           color: #212121;
-          font-size: 14px;
+          font-size: 16px;
           line-height:1.17 ;
           font-weight: 500;
-          text-decoration: none;
+          text-decoration: none;}
 
-      }
-
-      .team-card-two {
-        color: #212121;
-        font-size: 14px;
-        line-height:1.17 ;
-        font-weight: 500;
-        letter-spacing: 2%;
-        text-decoration: none;
-
-      }
+          .logo-header-two{
+            color: #212121 ;
+            font-size: 26px;
+            line-height:1.17 ;
+            font-weight: 700;
+            font-family:Raleway,serif ;
+            text-decoration: none;
+        }
       .logo-first{
           color:#2196F3;
           font-size: 26px;
           line-height:1.17 ;
           font-weight: 700;
           font-family:Raleway,serif ;
-          text-decoration: none;
-    
-      }
-      .logo-header{
+          text-decoration: none; }
+      
+          .logo-header{
         color:#FFFFFF ;
         font-size: 26px;
         line-height:1.17 ;
@@ -149,16 +147,7 @@ justify-content: space-around;
             letter-spacing: 6%;
             text-decoration: none;
 }
-        .button {
-            color:#FFFFFF;
-            background: #2196F3;
-            font-size: 16px;
-                line-height:1.87 ;
-                font-weight: 700;
-                text-align: center;
-                letter-spacing: 6%;
-                text-decoration: none;
-                }
+        
                 .e-mail{
                     color:#757575;
                     font-size: 14px;
@@ -167,12 +156,14 @@ justify-content: space-around;
                     text-decoration: none;
                    }
                    .maximum-size{
-                    color:#FFFFFF, 60%;
+                    color: rgb(255,255,255,0.6);
                     font-size: 14px;
                     line-height:1.71 ;
                     font-weight: 400;
                     text-decoration: none;
+                    
                    }
+                   
                    .time-class{
                     color:#212121;
                     font-size: 18px;
@@ -200,3 +191,72 @@ justify-content: space-around;
     text-decoration: none;
 }
 
+
+
+.team-card-two {
+    color: #212121;
+    font-size: 14px;
+    line-height:1.17 ;
+    font-weight: 500;
+    letter-spacing: 2%;
+    text-decoration: none;}
+    .logo-first-two{
+        color:#2196F3;
+        font-size: 26px;
+        line-height:1.17 ;
+        font-weight: 700;
+        font-family:Raleway,serif ;
+        text-decoration: none;}
+        footer{
+            background-color: #2F303A;
+        }
+        button{
+            background-color:#2196f3;
+            color: #FFFFFF;
+            font-size: 16px;
+    line-height:1.87 ;
+    font-weight: 700;
+    letter-spacing: 6%;
+    
+    }
+    .container-portfolio-ol{
+        height: 80px;
+    }
+    .twenty-two-section{
+        height: 600px;
+    }
+    .team-card-one-section{
+        width: 1170px;
+        height: 101px;
+    }
+    .card-one-section{
+        width: 1170px;
+        height: 386px;
+    }
+    .section-team-twenty-one{
+        height: 648px;
+        top: 1449px;
+        width: 1600px;
+    }
+.container-footer{
+    height: 252px;
+    margin: 0px;
+    top: 2097px;
+}
+.normalization-one{
+    width: 611px;
+    height: 54px;
+}
+.picture-inet{
+    width: 1170px;
+    height: 1360px;
+}
+
+.now-the-sturt{
+    display: flex;
+        flex-direction:row-reverse;
+        height: 80px;
+        justify-content:flex-end;
+}
+
+        
