@@ -28,7 +28,6 @@ nav {
     justify-content: space-around;
     align-items: flex-start;
     
-
 }
 body{
     background-color: #e5e5e5;
@@ -221,22 +220,29 @@ justify-content: space-around;
     }
     .container-portfolio-ol{
         height: 80px;
+        margin: 0,0,0,0;
+        
     }
+
     .twenty-two-section{
         height: 600px;
+        margin: 0,0,94,0;
+padding: 200,452,280,452;
     }
     .team-card-one-section{
         width: 1170px;
         height: 101px;
+        
     }
     .card-one-section{
         width: 1170px;
         height: 386px;
     }
     .section-team-twenty-one{
-        height: 648px;
-        top: 1449px;
-        width: 1600px;
+        padding-top: 94px;
+  
+    margin: 186,215,94,215;
+       
     }
 .container-footer{
     height: 252px;
@@ -258,5 +264,23 @@ justify-content: space-around;
         height: 80px;
         justify-content:flex-end;
 }
+.section-attention-first{
+    margin: 94,215,94,215;
+}
+.container-card-one{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin: 186,215,94,215;
+}
+.section-card-two{
+    padding:186,215,202,215;
+    margin: 188,0,0,0;
+}
+.section-street{
+    padding-top: 94px;
+    padding-bottom: 94px; 
+
+}
+
 
         
