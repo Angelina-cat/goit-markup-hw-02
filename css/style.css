@@ -8,6 +8,8 @@ nav {
     align-content:stretch;
     }
   .nones { list-style: none;
+    justify-content: space-between;
+    
 }
 
  
@@ -24,14 +26,20 @@ nav {
     display: flex;
     flex-wrap:wrap;
     flex-direction: row;
-    height: 368px; 
+    height: 648px; 
+    
     justify-content: space-around;
     align-items: flex-start;
+    margin-top: 94; 
+    margin-right:215 ;
+    margin-bottom: 94;
+    margin-left: 215 ;
+    align-content: center;
     
 }
 body{
     background-color: #e5e5e5;
-    max-width: 1600px;
+    max-width: 1200px;
     
 
 }
@@ -48,7 +56,8 @@ height: 80px;
 flex-direction: row;
 flex-wrap:nowrap;
 align-items: flex-start;
-justify-content: space-around;
+justify-content: space-between;
+
 
     }
     .container-portfolio-two{
@@ -210,54 +219,64 @@ justify-content: space-around;
             background-color: #2F303A;
         }
         button{
+            
             background-color:#2196f3;
             color: #FFFFFF;
             font-size: 16px;
     line-height:1.87 ;
     font-weight: 700;
     letter-spacing: 6%;
-    line-height: center;
+    height: 50px;
+width: 200px;
+left: 700px;
+top: 430px;
+border-radius: 4px;
+margin-top: 350px;
+margin-right: 700px;
+margin-bottom: 1869px;
+margin-left: 700px;
+    
     
     }
     .container-portfolio-ol{
         height: 80px;
         margin: 0,0,0,0;
+
         
     }
 
     .twenty-two-section{
         height: 600px;
-        margin: 0,0,94,0;
-padding: 200,452,280,452;
+        margin-bottom: 94px;
+padding-top:  94px;
+padding-right:  215px;
+ padding-bottom: 94px;
+ padding-left: 215px;
+ height: 600px;
+
+
     }
-    .team-card-one-section{
-        width: 1170px;
-        height: 101px;
+   
         
-    }
-    .card-one-section{
-        width: 1170px;
-        height: 386px;
-    }
+    
+    
+    
     .section-team-twenty-one{
+
+        
         padding-top: 94px;
   
-    margin: 186,215,94,215;
+    padding-top:  186px;
+   padding-right: 215px;
+   padding-bottom:  94px;
+   padding-left:  215px;
+   
        
     }
-.container-footer{
-    height: 252px;
-    margin: 0px;
-    top: 2097px;
-}
-.normalization-one{
-    width: 611px;
-    height: 54px;
-}
-.picture-inet{
-    width: 1170px;
-    height: 1360px;
-}
+
+
+
+
 
 .now-the-sturt{
     display: flex;
@@ -266,16 +285,21 @@ padding: 200,452,280,452;
         justify-content:flex-end;
 }
 .section-attention-first{
-    margin: 94,215,94,215;
+    margin: 94px,215px,94px,215px;
 }
 .container-card-one{
     padding-top: 94px;
     padding-bottom: 94px;
-    margin: 186,215,188,215;
+   
 }
 .section-card-two{
-    padding:186,215,202,215;
-    margin: 188,0,0,0;
+    box-sizing: border-box;
+   width: 1200px;
+   height: 648px; 
+   
+    margin-top: 94px;
+    margin-bottom: 252px;
+   
 }
 .section-street{
     padding-top: 94px;
@@ -283,8 +307,22 @@ padding: 200,452,280,452;
 
 }
 .section-our-com{
-    margin: 94,668,50,668;
+    margin: 94px,668px,50px,668px;
+    height: 42px;
 }
+.section-street{
+    box-sizing: border-box;
+    width: 1600px;
+    height: 215px;
+}
+
+.contacts-two{
+    margin: top 111px; ;
+    margin: right 1154px; ;
+    margin: bottom 60px; ;
+    margin: left 215px; ;
+}
+
 
 
 
