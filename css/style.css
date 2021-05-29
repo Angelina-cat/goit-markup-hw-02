@@ -216,6 +216,7 @@ justify-content: space-around;
     line-height:1.87 ;
     font-weight: 700;
     letter-spacing: 6%;
+    line-height: center;
     
     }
     .container-portfolio-ol{
@@ -270,7 +271,7 @@ padding: 200,452,280,452;
 .container-card-one{
     padding-top: 94px;
     padding-bottom: 94px;
-    margin: 186,215,94,215;
+    margin: 186,215,188,215;
 }
 .section-card-two{
     padding:186,215,202,215;
@@ -281,6 +282,10 @@ padding: 200,452,280,452;
     padding-bottom: 94px; 
 
 }
+.section-our-com{
+    margin: 94,668,50,668;
+}
+
 
 
         
