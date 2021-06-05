@@ -105,15 +105,31 @@ justify-content: space-between;
         text-decoration: none;
 }
 
-    a:hover{
+    .team-card-two:hover{
         color:dodgerblue;
         
     }
-    a:focus{
+    .team-card-two:focus{
         color:dodgerblue;
         
     }
+    .logo-header-two:hover{
+        color:dodgerblue;
         
+    }
+    .logo-header-two:focus{
+        color:dodgerblue;}
+        
+        .e-mail:hover{
+            color:dodgerblue;
+            
+        }
+        .e-mail:focus{
+            color:dodgerblue;}
+            
+           
+
+            
     
     .team-card-mac{
         color: #2196f3;
