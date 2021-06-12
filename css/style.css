@@ -1,4 +1,10 @@
 
+body{
+    background-color: #FFFFFF;
+    max-width: 1600px;
+    
+
+}
 ul{
     list-style: none;
 }
@@ -37,19 +43,9 @@ nav {
     align-content: center;
     
 }
-body{
-    background-color: #FFFFFF;
-    max-width: 1200px;
-    
 
-}
     
-    .container-five{
-        height: 1360px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
+ 
     .container-portfolio{
         display: flex;
 height: 80px;
@@ -298,11 +294,7 @@ padding-right:  215px;
 .section-attention-first{
     margin: 94px,215px,94px,215px;
 }
-.container-card-one{
-    padding-top: 94px;
-    padding-bottom: 94px;
-   
-}
+
 .section-card-two{
     box-sizing: border-box;
    width: 1200px;
