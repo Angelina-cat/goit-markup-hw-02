@@ -13,20 +13,11 @@ nav {
     flex-wrap:wrap-reverse;
     align-content:stretch;
     }
-  .nones { list-style: none;
-    justify-content: space-between;
-    
-}
+  
+
 
  
-.card-one{
-    display: flex;
-    flex-wrap:wrap;
-    flex-direction: row;
-    height: 386px; 
-    justify-content: space-around;
-    align-items: flex-start;
-}
+
 .section-team-card-super{
     background-color:#F5F4FA ;
     display: flex;
@@ -45,17 +36,7 @@ nav {
 }
 
     
- 
-    .container-portfolio{
-        display: flex;
-height: 80px;
-flex-direction: row;
-flex-wrap:nowrap;
-align-items: flex-start;
-justify-content: space-between;
 
-
-    }
     .container-portfolio-two{
         display: flex;
         flex-direction:row-reverse;
@@ -81,7 +62,7 @@ justify-content: space-between;
             font-size: 26px;
             line-height:1.17 ;
             font-weight: 700;
-            font-family:Raleway,serif ;
+            font-family:Raleway,sans-serif ;
             text-decoration: none;
         }
       .logo-first{
@@ -89,7 +70,7 @@ justify-content: space-between;
           font-size: 26px;
           line-height:1.17 ;
           font-weight: 700;
-          font-family:Raleway,serif ;
+          font-family:Raleway,sans-serif ;
           text-decoration: none; }
       
           .logo-header{
@@ -97,7 +78,7 @@ justify-content: space-between;
         font-size: 26px;
         line-height:1.17 ;
         font-weight: 700;
-        font-family:Raleway,serif ;
+        font-family:Raleway,sans-serif ;
         text-decoration: none;
 }
 
@@ -127,14 +108,8 @@ justify-content: space-between;
 
             
     
-    .team-card-mac{
-        color: #2196f3;
-        font-size: 14px;
-        line-height:1.17 ;
-        font-weight: 500;
-        text-decoration: none;
-
-    }
+    
+    
     p{
         color: #757575;
         font-size: 14px;
@@ -285,39 +260,12 @@ padding-right:  215px;
 
 
 
-.now-the-sturt{
-    display: flex;
-        flex-direction:row-reverse;
-        height: 80px;
-        justify-content:flex-end;
-}
+
 .section-attention-first{
     margin: 94px,215px,94px,215px;
 }
 
-.section-card-two{
-    box-sizing: border-box;
-   width: 1200px;
-   height: 648px; 
-   
-    margin-top: 94px;
-    margin-bottom: 252px;
-   
-}
-.section-street{
-    padding-top: 94px;
-    padding-bottom: 94px; 
 
-}
-.section-our-com{
-    margin: 94px,668px,50px,668px;
-    height: 42px;
-}
-.section-street{
-    box-sizing: border-box;
-    width: 1600px;
-    height: 215px;
-}
 
 .contacts-two{
     margin: top 111px; ;
