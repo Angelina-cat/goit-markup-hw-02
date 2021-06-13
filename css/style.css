@@ -2,6 +2,8 @@
 body{
     background-color: #FFFFFF;
     max-width: 1600px;
+    font-family:Roboto;
+    text-decoration: none;
     
 
 }
@@ -12,9 +14,18 @@ nav {
     display:flex;
     flex-wrap:wrap-reverse;
     align-content:stretch;
+
     }
   
+.section-team-card-super p{ 
+    color: #757575;
+    font-size: 16px;
+    line-height:1.17 ;
+    font-weight: 400;
+    text-decoration: none;
+  letter-spacing: 3%;
 
+}
 
  
 
@@ -55,7 +66,8 @@ nav {
           font-size: 16px;
           line-height:1.17 ;
           font-weight: 500;
-          text-decoration: none;}
+          text-decoration: none;
+        letter-spacing: 3%;}
 
           .logo-header-two{
             color: #212121 ;
@@ -110,13 +122,7 @@ nav {
     
     
     
-    p{
-        color: #757575;
-        font-size: 14px;
-        line-height:1.17 ;
-        font-weight: 400;
-        text-decoration: none;
-    }
+   
     .non-stop{
         display: flex;
         height: 80px;
@@ -125,23 +131,9 @@ nav {
         align-items: flex-start;
         justify-content: space-around;
         }
-        h2{
-            color:#212121;
-            font-size: 36px;
-            line-height:1.17 ;
-            font-weight: 700;
-            text-align: center;
-            text-decoration: none;
-        }
-        
-        h1{color:#FFFFFF;
-            font-size: 44px;
-            line-height:1.37 ;
-            font-weight: 900;
-            text-align: center;
-            letter-spacing: 6%;
-            text-decoration: none;
-}
+       
+      
+
         
                 .e-mail{
                     color:#757575;
@@ -150,40 +142,27 @@ nav {
                     font-weight: 500;
                     text-decoration: none;
                    }
-                   .maximum-size{
+                   .maximum-size {
                     color: rgb(255,255,255,0.6);
                     font-size: 14px;
                     line-height:1.71 ;
                     font-weight: 400;
                     text-decoration: none;
+                    letter-spacing: 3%;
                     
                    }
-                   
-                   .time-class{
-                    color:#212121;
-                    font-size: 18px;
-                    line-height:2 ;
-                    font-weight: 700;
-                    text-decoration: none;
-}
-.button-two
-{
-    color:#212121;
-            background:#F5F4FA ;
-            font-size: 16px;
-                line-height:1.87 ;
-                font-weight: 500;
-                text-align:justify;
-                letter-spacing: 3%;
-                text-decoration: none;
+  
 
-}
+
+
+
 .street-one
 { color:#FFFFFF;
     font-size: 14px;
     line-height:1.17 ;
     font-weight: 400;
     text-decoration: none;
+    letter-spacing: 3%;
 }
 
 
@@ -228,13 +207,21 @@ margin-left: 700px;
     
 
     .twenty-two-section{
-        height: 600px;
+       color: #FFFFFF;
         margin-bottom: 94px;
 padding-top:  94px;
 padding-right:  215px;
  padding-bottom: 94px;
  padding-left: 215px;
  height: 600px;
+ font-size: 44px;
+          line-height:1.17 ;
+          font-weight: 900;
+          font-family: Roboto,sans-serif;
+          text-decoration: none; 
+          letter-spacing: 6%;
+          background-color:#2F303A;
+          ;
 
 
     }
@@ -272,6 +259,97 @@ padding-right:  215px;
     margin: right 1154px; ;
     margin: bottom 60px; ;
     margin: left 215px; ;
+}
+
+.container-normal{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+
+
+}
+ul .item{
+    color: #212121;
+    font-size: 14px;
+          line-height:1.17 ;
+          font-weight: 500;
+          font-family: Roboto,sans-serif;
+          text-decoration: none; 
+          letter-spacing: 2%;
+}
+li .team-card-one{
+    color: #212121;
+    font-size: 14px;
+          line-height:1.17 ;
+          font-weight: 700;
+          font-family: Roboto,sans-serif;
+          text-decoration: none; 
+          letter-spacing: 3%;
+          
+         
+}
+
+.item p{
+    color: #757575;
+    font-size: 14px;
+          line-height:1.71 ;
+          font-weight: 400;
+          font-family: Roboto,sans-serif;
+          text-decoration: none; 
+          letter-spacing: 3%;
+}
+li{
+    list-style: none;
+}
+.section-our-com {
+    color: #212121;
+    font-size: 36px;
+          line-height:1.17 ;
+          font-weight: 700;
+          font-family: Roboto,sans-serif;
+          text-decoration: none; 
+          letter-spacing: 3%;
+
+}
+
+.button-two{
+    color: #212121;
+    font-size: 16px;
+          line-height:1.62 ;
+          font-weight: 500;
+          font-family: Roboto,sans-serif;
+          text-decoration: none; 
+          letter-spacing: 3%;
+          background-color:#F5F4FA;
+
+          ;
+}
+
+ul .time-class{
+    color: #212121;
+    font-size: 18px;
+          line-height:2.0;
+          font-weight: 700;
+          font-family: Roboto,sans-serif;
+          text-decoration: none; 
+          letter-spacing: 6%;
+          text-decoration: none;
+          }
+.web-site{
+    color: #757575;
+    font-size: 16px;
+          line-height:1.87;
+          font-weight: 400;
+          font-family: Roboto,sans-serif;
+          text-decoration: none; 
+          letter-spacing: 3%;
+        text-decoration: none;
+
+}
+.contacts-two li {
+    text-decoration: none;
 }
 
 
