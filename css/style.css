@@ -5,13 +5,10 @@
 a {
 text-decoration: none;
 }
-img{
-    display: block;
-    max-width: 100%;
-}
+
 body{
     background-color: #FFFFFF;
-    max-width: 1230px;
+    width: 1230px;
     font-family:Roboto,sans-serif;
     
     margin: 0px;
@@ -30,23 +27,14 @@ ul{
     font-size: 16px;
     line-height:1.17 ;
     font-weight: 400;
-    text-decoration: none;
+    
   letter-spacing: 3%;
 
 }
 
  
 
-.team-card{
-    background-color:#F5F4FA ;
-    display: flex;
-    align-items: stretch;
-    }
-    .what-we-are-doing{
-        display: flex;
-    align-items: stretch;
-    
-    }
+
 .team-card :not(:last-child){
     margin-right: 30px;
     
@@ -288,12 +276,8 @@ padding-right: 30px;
     letter-spacing: 3%;
 }
 
-.item-one 
-{
-    display: flex;
- margin-left: 93px;
-}
-.item-one .item{
+
+.item-one .contakts-item-link{
 
 margin-right: 50px;  
 
@@ -303,20 +287,10 @@ margin-right: 50px;
  .item-one .item:last-child{
      margin-right: 0px;
  }
- .container-portfolio-two li{
-     display: flex;
-     justify-content: flex-end;
-    
- }
+
  
-nav{
-    display: flex;
-    align-items: center;
-}
-.team-card-two
-.e-mail{
-    display:block;
-}
+
+
 
 
 
@@ -386,7 +360,8 @@ border-radius: 4px;
           letter-spacing: 6%;
          margin-top: 200px ;
          margin-bottom: 30px;
-          
+         padding-left: 252px;
+          padding-right: 252px;
           
 
 
@@ -425,17 +400,9 @@ border-radius: 4px;
 
 
 
-.container-normal{
-    display: flex;
-    flex-wrap:wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
 
 
-}
-
-ul .item{
+ul .contakts-item-link{
     color: #212121;
     font-size: 14px;
           line-height:1.17 ;
@@ -542,7 +509,7 @@ ul .time-class{
 .woman-and-man{
    
     background-color: #F5F4FA;
-    height: 648px;
+   
     width: 1230px;
     margin-top: 94px;
     margin-bottom: 0px;
@@ -576,25 +543,13 @@ ul .time-class{
 
 
 
-.plan-b {
-    display: flex;
-}
+
 .plan-b li:not(:last-child){
     margin-right: 30px;}
     
     
-    .portfolio-work{
-        display: flex;
-        flex-wrap: wrap;
+    
 
-        padding-right: -30px;
-        
-    }
-.container-footer-two{
-    display: flex;
-    flex-direction: column;
-    padding-left:15px;
-}
 footer .logo-header{
     display:inline-block;
     padding-top:60px ;
@@ -609,9 +564,7 @@ footer .logo-header{
 
 
 }
-.button-marketing {
-    display: flex;
-    }
+
     .button-marketing li{
         display:inline-block;
         border-radius:4px ;
