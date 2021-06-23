@@ -8,13 +8,11 @@ text-decoration: none;
 
 body{
     background-color: #FFFFFF;
-    width: 1230px;
+    max-width: 1600px;
     font-family:Roboto,sans-serif;
-    
+    color: black;
     margin: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
-
+   letter-spacing: 0.03em;
 }
 ul{
     list-style: none;
@@ -57,7 +55,7 @@ padding-right: 30px;
           font-size: 16px;
           line-height:1.17 ;
           font-weight: 500;
-          text-decoration: none;
+        
         letter-spacing: 3%;
     padding-bottom: 10px;
     margin-top: 94px;
@@ -68,26 +66,26 @@ padding-right: 30px;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 500;
-            text-decoration: none;
-          letter-spacing: 3%; 
+           
+    
           margin-right:59px ;
           margin-top:30px ;
           margin-bottom:10px ;
           margin-left:60px ;
-          font-family:Roboto,sans-serif
+            
         }
         .team-card-olga{
             color: #212121;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 500;
-            text-decoration: none;
-          letter-spacing: 3%; 
+            
+          
           margin-right:81px ;
           margin-top:30px ;
           margin-bottom:10px ;
           margin-left:80px ;
-          font-family:Roboto,sans-serif
+         
 
         }
         .team-card-tarasov{
@@ -95,26 +93,26 @@ padding-right: 30px;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 500;
-            text-decoration: none;
-          letter-spacing: 3%; 
+           
+     
           margin-right:66px ;
           margin-top:30px ;
           margin-bottom:10px ;
           margin-left:67px ;
-          font-family:Roboto,sans-serif
+         
         }
         .team-card-ermakov{
             color: #212121;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 500;
-            text-decoration: none;
-          letter-spacing: 3%; 
+           
+         
           margin-right:68px ;
           margin-top:30px ;
           margin-bottom:10px ;
           margin-left:68px ;
-          font-family:Roboto,sans-serif  
+       
         }
         
         .designer-cool{
@@ -122,13 +120,13 @@ padding-right: 30px;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 400;
-            text-decoration: none;
-          letter-spacing: 3%; 
+            
+       
           margin-right:70px ;
           
           margin-bottom:30px ;
           margin-left:70px ;
-          font-family:Roboto,sans-serif 
+         
 
         }
         .designer-cool-olga{
@@ -136,13 +134,13 @@ padding-right: 30px;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 400;
-            text-decoration: none;
-          letter-spacing: 3%; 
+           
+          
           margin-right:61px ;
           
           margin-bottom:30px ;
           margin-left:62px ;
-          font-family:Roboto,sans-serif 
+          
 
         }
         .designer-cool-tarasov{
@@ -151,12 +149,12 @@ padding-right: 30px;
             line-height:1.17 ;
             font-weight: 400;
             text-decoration: none;
-          letter-spacing: 3%; 
+        
           margin-right:97px ;
           
           margin-bottom:30px ;
           margin-left:97px ;
-          font-family:Roboto,sans-serif 
+         
 
         }
         .designer-cool-ermakov{
@@ -164,13 +162,13 @@ padding-right: 30px;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 400;
-            text-decoration: none;
-          letter-spacing: 3%; 
+        
+          
           margin-right:91px ;
           
           margin-bottom:30px ;
           margin-left:92px ;
-          font-family:Roboto,sans-serif 
+         
 
         }
           .logo-header-two{
@@ -186,19 +184,30 @@ padding-right: 30px;
         
 .page-header{
     border-bottom: 1px solid #ECECEC ;
-            
+    
+    margin-top: 15px;
+        margin-left: 15px;    
             
 }
        
 
-        
+    ul .contakts-link{
+        color:#212121;
+
+        font-size: 14px;
+        line-height:1.14;
+        font-weight: 500;
+        font-family:Raleway,serif ;
+       
+        letter-spacing: 0.02em;
+    }
       .logo-first{
           color:#2196F3;
           font-size: 26px;
           line-height:1.17 ;
           font-weight: 700;
           font-family:Raleway,sans-serif ;
-          text-decoration: none; 
+         
           
         }
       
@@ -208,14 +217,14 @@ padding-right: 30px;
         line-height:1.17 ;
         font-weight: 700;
         font-family:Raleway,sans-serif ;
-        text-decoration: none;
+        
 }
 
-    .team-card-two:hover{
+    .item-one a:hover{
         color:dodgerblue;
         
     }
-    .team-card-two:focus{
+    .item-one a:focus{
         color:dodgerblue;
         
     }
@@ -244,7 +253,7 @@ padding-right: 30px;
     line-height:1.17 ;
     font-weight: 500;
     text-decoration: none;
-    letter-spacing: 2%;
+    
     font-family:Roboto,sans-serif ;
    }
             
@@ -259,7 +268,7 @@ padding-right: 30px;
                     line-height:1.71 ;
                     font-weight: 400;
                     
-                    letter-spacing: 3%;
+                    
                     
                    }
   
@@ -273,7 +282,7 @@ padding-right: 30px;
     line-height:1.17 ;
     font-weight: 400;
     text-decoration: none;
-    letter-spacing: 3%;
+  
 }
 
 
@@ -290,6 +299,8 @@ margin-right: 50px;
 
  
 
+    
+
 
 
 
@@ -302,6 +313,7 @@ margin-right: 50px;
         font-weight: 700;
         font-family:Raleway,serif ;
         text-decoration: none;}
+        
         footer{margin-top: 94px;
             background-color: #2F303A;
             width: 1230px;
@@ -309,14 +321,14 @@ margin-right: 50px;
      
         button{
             display: inline-block;
-            
+            min-width: 200px;
             background-color:#2196f3;
             color: #FFFFFF;
             font-size: 16px;
     line-height:1.87 ;
     font-weight: 700;
-    letter-spacing: 6%;
-    height: 50px;
+    letter-spacing: 0.06em;
+  
     border: transparent;
     padding:10px 32px ;
     text-decoration:none;
@@ -333,18 +345,17 @@ border-radius: 4px;
  
     
 
-    .twenty-two-section{
+    .section-hero{
         box-sizing: border-box;
        
        
         
-        margin-bottom: 94px;
+       
        color: #FFFFFF;
        background-color:#3a3a3d;
        text-align: center;
-       padding-top:200px ;
-       padding-bottom:200px;
-
+       margin-bottom: 94px;
+letter-spacing: 0.06em;
  margin-right: 15px;
  margin-left: 15px;
 }
@@ -357,7 +368,7 @@ border-radius: 4px;
           font-weight: 900;
           font-family: Roboto,sans-serif;
           text-decoration: none; 
-          letter-spacing: 6%;
+          
          margin-top: 200px ;
          margin-bottom: 30px;
          padding-left: 252px;
@@ -392,9 +403,6 @@ border-radius: 4px;
 
 
 
-.section-attention-first{
-    margin: 94px,215px,94px,215px;
-}
 
 
 
@@ -429,13 +437,13 @@ li .team-card-one{
          
 }
 
-.item p{
+.class-people p{
     color: #757575;
     font-size: 14px;
           line-height:1.71 ;
           font-weight: 400;
-          font-family: Roboto,sans-serif;
-          text-decoration: none; 
+         
+         
           letter-spacing: 3%;
 }
 li{
