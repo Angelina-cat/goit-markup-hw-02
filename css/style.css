@@ -1,21 +1,43 @@
 
+
 *, ::after,::before{
     box-sizing: border-box;
 }
 a {
 text-decoration: none;
 }
-
+img{
+    display: block;
+    max-width: 100%;
+}
 body{
     background-color: #FFFFFF;
     max-width: 1600px;
     font-family:Roboto,sans-serif;
-    color: black;
-    margin: 0px;
-   letter-spacing: 0.03em;
+    
+    margin: 0 auto;
+
+   
+
+
+}
+.section-our-com{
+    margin-top: 50px;
+    margin-bottom: 94px;
+}
+.container-one{
+    width: 1200px;
+    margin:0 auto;
+    padding: 0 15 0 15px;
+}
+.container-one{
+    display: flex;
+
 }
 ul{
     list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 
     
@@ -25,14 +47,27 @@ ul{
     font-size: 16px;
     line-height:1.17 ;
     font-weight: 400;
-    
-  letter-spacing: 3%;
+    text-decoration: none;
+  letter-spacing: 0.03em;
+  width: 1200px;
 
 }
 
  
-
-
+.section-number{
+    width: 1200px;
+    
+}
+.team-card{
+    background-color:#F5F4FA ;
+    display: flex;
+    align-items: stretch;
+    }
+    .what-we-are-doing{
+        display: flex;
+    align-items: stretch;
+    
+    }
 .team-card :not(:last-child){
     margin-right: 30px;
     
@@ -55,8 +90,8 @@ padding-right: 30px;
           font-size: 16px;
           line-height:1.17 ;
           font-weight: 500;
-        
-        letter-spacing: 3%;
+          text-decoration: none;
+        letter-spacing: 0.03em;
     padding-bottom: 10px;
     margin-top: 94px;
     
@@ -66,26 +101,26 @@ padding-right: 30px;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 500;
-           
-    
+            text-decoration: none;
+          letter-spacing: 0.03em; 
           margin-right:59px ;
           margin-top:30px ;
           margin-bottom:10px ;
           margin-left:60px ;
-            
+          font-family:Roboto,sans-serif
         }
         .team-card-olga{
             color: #212121;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 500;
-            
-          
+            text-decoration: none;
+          letter-spacing: 0.03em; 
           margin-right:81px ;
           margin-top:30px ;
           margin-bottom:10px ;
           margin-left:80px ;
-         
+          font-family:Roboto,sans-serif
 
         }
         .team-card-tarasov{
@@ -93,26 +128,26 @@ padding-right: 30px;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 500;
-           
-     
+            text-decoration: none;
+          letter-spacing:0.03em; 
           margin-right:66px ;
           margin-top:30px ;
           margin-bottom:10px ;
           margin-left:67px ;
-         
+          font-family:Roboto,sans-serif
         }
         .team-card-ermakov{
             color: #212121;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 500;
-           
-         
+            text-decoration: none;
+          letter-spacing:0.03em; 
           margin-right:68px ;
           margin-top:30px ;
           margin-bottom:10px ;
           margin-left:68px ;
-       
+          font-family:Roboto,sans-serif  
         }
         
         .designer-cool{
@@ -120,13 +155,13 @@ padding-right: 30px;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 400;
-            
-       
+            text-decoration: none;
+          letter-spacing: 0.03em; 
           margin-right:70px ;
           
           margin-bottom:30px ;
           margin-left:70px ;
-         
+          font-family:Roboto,sans-serif 
 
         }
         .designer-cool-olga{
@@ -134,13 +169,13 @@ padding-right: 30px;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 400;
-           
-          
+            text-decoration: none;
+          letter-spacing: 0.03em; 
           margin-right:61px ;
           
           margin-bottom:30px ;
           margin-left:62px ;
-          
+          font-family:Roboto,sans-serif 
 
         }
         .designer-cool-tarasov{
@@ -149,12 +184,12 @@ padding-right: 30px;
             line-height:1.17 ;
             font-weight: 400;
             text-decoration: none;
-        
+          letter-spacing: 0.03em; 
           margin-right:97px ;
           
           margin-bottom:30px ;
           margin-left:97px ;
-         
+          font-family:Roboto,sans-serif 
 
         }
         .designer-cool-ermakov{
@@ -162,13 +197,13 @@ padding-right: 30px;
             font-size: 16px;
             line-height:1.17 ;
             font-weight: 400;
-        
-          
+            text-decoration: none;
+          letter-spacing: 0.03em; 
           margin-right:91px ;
           
           margin-bottom:30px ;
           margin-left:92px ;
-         
+          font-family:Roboto,sans-serif 
 
         }
           .logo-header-two{
@@ -179,35 +214,27 @@ padding-right: 30px;
             font-family:Raleway,sans-serif ;
             text-decoration: none;
            padding-left: 15px;
+           letter-spacing: 0.03em;
         }
        
         
 .page-header{
     border-bottom: 1px solid #ECECEC ;
-    
-    margin-top: 15px;
-        margin-left: 15px;    
+    height: 80px;
+            
             
 }
        
 
-    ul .contakts-link{
-        color:#212121;
-
-        font-size: 14px;
-        line-height:1.14;
-        font-weight: 500;
-        font-family:Raleway,serif ;
-       
-        letter-spacing: 0.02em;
-    }
+        
       .logo-first{
           color:#2196F3;
           font-size: 26px;
           line-height:1.17 ;
           font-weight: 700;
           font-family:Raleway,sans-serif ;
-         
+          text-decoration: none; 
+          letter-spacing: 0.03em;
           
         }
       
@@ -217,14 +244,15 @@ padding-right: 30px;
         line-height:1.17 ;
         font-weight: 700;
         font-family:Raleway,sans-serif ;
-        
+        text-decoration: none;
+        letter-spacing: 0.03em;
 }
 
-    .item-one a:hover{
+    .team-card-two:hover{
         color:dodgerblue;
         
     }
-    .item-one a:focus{
+    .team-card-two:focus{
         color:dodgerblue;
         
     }
@@ -253,8 +281,9 @@ padding-right: 30px;
     line-height:1.17 ;
     font-weight: 500;
     text-decoration: none;
-    
+    letter-spacing: 0.02em;
     font-family:Roboto,sans-serif ;
+    margin-left: 50px;
    }
             
        
@@ -268,7 +297,7 @@ padding-right: 30px;
                     line-height:1.71 ;
                     font-weight: 400;
                     
-                    
+                    letter-spacing: 0.03em;
                     
                    }
   
@@ -282,11 +311,15 @@ padding-right: 30px;
     line-height:1.17 ;
     font-weight: 400;
     text-decoration: none;
-  
+    letter-spacing: 0.03em;
 }
 
-
-.item-one .contakts-item-link{
+.item-one 
+{
+    display: flex;
+ margin-left: 93px;
+}
+.item-one .item{
 
 margin-right: 50px;  
 
@@ -296,39 +329,60 @@ margin-right: 50px;
  .item-one .item:last-child{
      margin-right: 0px;
  }
-
- 
-
+ .container-portfolio-two li{
+     display: flex;
+     margin-left: auto;
+     
     
+ }
+ .container-portfolio-two .item + .item{
+     
+     margin-right: auto;
+ }
+nav{
+    display: flex;
+    align-items: center;
+}
+.team-card-two
+.e-mail{
+    display:block;
+}
 
 
 
-
-
-
+.team-card-two {
+    
+    color: #212121;
+    font-size: 14px;
+    line-height:1.17 ;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
     .logo-first-two{
         color:#2196F3;
         font-size: 26px;
         line-height:1.17 ;
         font-weight: 700;
         font-family:Raleway,serif ;
+        letter-spacing: 0.03em;
         text-decoration: none;}
-        
         footer{margin-top: 94px;
             background-color: #2F303A;
-            width: 1230px;
+            width: 1200px;
+            
         }
      
         button{
             display: inline-block;
-            min-width: 200px;
+            
             background-color:#2196f3;
             color: #FFFFFF;
             font-size: 16px;
     line-height:1.87 ;
     font-weight: 700;
     letter-spacing: 0.06em;
-  
+    height: 50px;
     border: transparent;
     padding:10px 32px ;
     text-decoration:none;
@@ -345,19 +399,20 @@ border-radius: 4px;
  
     
 
-    .section-hero{
+    .twenty-two-section{
         box-sizing: border-box;
        
-       
+       width: 1200px;
         
-       
+        padding-left: 15px;
+        padding-right:15px ;
        color: #FFFFFF;
        background-color:#3a3a3d;
        text-align: center;
-       margin-bottom: 94px;
-letter-spacing: 0.06em;
- margin-right: 15px;
- margin-left: 15px;
+       padding-top:200px ;
+       padding-bottom:200px;
+
+
 }
       
        .decid-my-win{
@@ -368,11 +423,11 @@ letter-spacing: 0.06em;
           font-weight: 900;
           font-family: Roboto,sans-serif;
           text-decoration: none; 
-          
+          letter-spacing: 0.06em;
          margin-top: 200px ;
          margin-bottom: 30px;
-         padding-left: 252px;
-          padding-right: 252px;
+         padding-top: 200px;
+         padding-bottom: 280px;
           
 
 
@@ -403,27 +458,36 @@ letter-spacing: 0.06em;
 
 
 
+.section-attention-first{
+    width: 1200px;
+    margin: 0px auto ;
+    padding: 0px 15px 0px 15px ;
+}
 
 
 
 
 
+.container-normal{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 94px;
+    padding-bottom: 50px;
 
 
-ul .contakts-item-link{
+}
+ul .item{
     color: #212121;
     font-size: 14px;
           line-height:1.17 ;
           font-weight: 500;
           font-family: Roboto,sans-serif;
           text-decoration: none; 
-          letter-spacing: 2%;
+          letter-spacing: 0.02em;
          
-}
-.team-card-two {
-    
-    
-    text-decoration: none;
 }
 li .team-card-one{
     color: #212121;
@@ -432,19 +496,19 @@ li .team-card-one{
           font-weight: 700;
           font-family: Roboto,sans-serif;
           text-decoration: none; 
-          letter-spacing: 3%;
+          letter-spacing: 0.03em;
           
          
 }
 
-.class-people p{
+.item p{
     color: #757575;
     font-size: 14px;
           line-height:1.71 ;
           font-weight: 400;
-         
-         
-          letter-spacing: 3%;
+          font-family: Roboto,sans-serif;
+          text-decoration: none; 
+          letter-spacing: 0.03em;
 }
 li{
     list-style: none;
@@ -456,10 +520,11 @@ li{
           font-weight: 700;
           font-family: Roboto,sans-serif;
           text-decoration: none; 
-          letter-spacing: 3%;
-          padding-top: 94px ; 
-          padding-bottom: 50px ;
+          letter-spacing: 0.03em;
+          margin: 0px;
           text-align: center;
+          padding-top: 94px;
+          padding-bottom: 50px;
 
 }
 
@@ -470,7 +535,7 @@ li{
           font-weight: 500;
           font-family: Roboto,sans-serif;
           text-decoration: none; 
-          letter-spacing: 3%;
+          letter-spacing: 0.03em;
           background-color:#F5F4FA;
 
           
@@ -483,7 +548,7 @@ ul .time-class{
           font-weight: 700;
           font-family: Roboto,sans-serif;
           
-          letter-spacing: 6%;
+          letter-spacing: 0.06em;
           padding-left: 24px;
           padding-right: 24px;
           padding-top: 20px;
@@ -495,7 +560,7 @@ ul .time-class{
           font-weight: 400;
           font-family: Roboto,sans-serif;
           text-decoration: none; 
-          letter-spacing: 3%;
+          letter-spacing: 0.03em;
         text-decoration: none;
         padding-left:24px ;
         padding-right: 24px;
@@ -504,7 +569,7 @@ ul .time-class{
         
 
 }
-.team-card-one-section{
+.section-team-card-one{
     box-sizing: border-box;
     margin-top: 94px;
     margin-right: 15px;
@@ -517,8 +582,8 @@ ul .time-class{
 .woman-and-man{
    
     background-color: #F5F4FA;
-   
-    width: 1230px;
+    height: 648px;
+    width: 1200px;
     margin-top: 94px;
     margin-bottom: 0px;
     padding-left: 15px;
@@ -533,11 +598,6 @@ ul .time-class{
     margin-top: 0px;
     
 }
-.decid-my-win{
-    padding-top: 200px;
-    padding-bottom: 280px;
-    
-}
 
 
 
@@ -546,18 +606,32 @@ ul .time-class{
 .section-our-com{
     padding-bottom: 50px;
     text-align: center;
-    margin-top: 94px;
+    padding-top: 94px;
+
 }
 
 
 
-
+.plan-b {
+    display: flex;
+}
 .plan-b li:not(:last-child){
     margin-right: 30px;}
     
     
-    
+    .portfolio-work{
+        display: flex;
+        flex-wrap: wrap;
 
+        padding-right: -30px;
+        
+    }
+.container-footer-two{
+    display: flex;
+    flex-direction: column;
+    padding-left:15px;
+    
+}
 footer .logo-header{
     display:inline-block;
     padding-top:60px ;
@@ -572,7 +646,9 @@ footer .logo-header{
 
 
 }
-
+.button-marketing {
+    display: flex;
+    }
     .button-marketing li{
         display:inline-block;
         border-radius:4px ;
@@ -590,7 +666,7 @@ footer .logo-header{
 
 
 .container-portfolio{
-    width: 1230px;
+    width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -630,4 +706,27 @@ footer a:hover{
 }
 footer a:focus{
     color:dodgerblue;
+}
+.container-portfolio-two{
+    display: flex;
+    margin-left: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.main-content{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer-section{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+
+.container-portfolio-komanda{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
 }
